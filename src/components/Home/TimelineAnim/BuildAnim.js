@@ -92,7 +92,6 @@ const BuildAnim = () => {
                 aria-pressed={activeTab === tab}
                 role="tab"
                 type="button"
-                aria-label={`Show ${tab} code`}
               >
                 {tab}
                 {activeTab === tab && (

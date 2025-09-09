@@ -5,6 +5,7 @@ import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { FaTwitter, FaFacebook, FaLinkedin, FaInstagram } from "react-icons/fa";
 import { motion, AnimatePresence } from "framer-motion";
+import Image from "next/image";
 
 const Footer = () => {
   const router = useRouter();
@@ -107,7 +108,7 @@ const Footer = () => {
     <footer className="bg-black relative text-[#F8F9FB]/70 text-sm pt-10 pb-6 px-6 md:px-12">
       <div className="max-w-[85rem] mx-auto grid grid-cols-1 md:grid-cols-[1.2fr_1fr_1fr_0.8fr] gap-8 border-b border-[#F8F9FB]/20 pb-6">
         <div>
-          <img
+          <Image
             src="/logo-light.png"
             alt="Aeontrix logo"
             width={320}

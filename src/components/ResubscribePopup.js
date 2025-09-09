@@ -70,10 +70,10 @@ const ResubscribePopup = ({ onClose, onResubscribe, email }) => {
               id="resubscribe-heading"
               className="text-3xl font-bold text-seasalt mb-4"
             >
-              We're glad to have you back!
+              We&apos;re glad to have you back!
             </h2>
             <p className="text-[#F8F9FB]/70 text-lg mb-6">
-              You've successfully resubscribed to our updates and content.
+              You&apos;ve successfully resubscribed to our updates and content.
             </p>
             <div className="flex justify-center">
               <BookAuditButton label="Book a Call" className="px-8 !py-3" />
