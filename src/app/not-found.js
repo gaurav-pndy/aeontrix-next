@@ -38,7 +38,7 @@ export default function NotFound() {
           </h2>
 
           <p className="text-[#F8F9FB]/70 mb-6 max-w-md">
-            The page you're looking for doesn't exist or has been moved.
+            The page you're looking for does not exist or has been moved.
           </p>
 
           <div className="flex gap-4 justify-center">

@@ -312,8 +312,8 @@ const HeroSection = () => {
                     <p className="text-[#00FF93] mt-4 ">
                       {errorMessage.includes("contact@aeontrix.com") ? (
                         <>
-                          You're already subscribed! If you're interested in
-                          more automations,{" "}
+                          You&apos;re already subscribed! If you&apos;re
+                          interested in more automations,{" "}
                           <a
                             href="https://cal.com/aeontrix-ai/aeontrix-discovery"
                             className="underline"
@@ -432,8 +432,9 @@ const HeroSection = () => {
               Want to skip the queue?
             </h3>
             <p className="text-[#F8F9FB]/70 text-lg mt-2">
-              Book a free, no-obligation call with us — we'll walk you through
-              quick-win automation opportunities tailored to your business.
+              Book a free, no-obligation call with us — we&apos;ll walk you
+              through quick-win automation opportunities tailored to your
+              business.
             </p>
             <div className="flex justify-center mt-8">
               <BookAuditButton className="px-8 !py-3" />

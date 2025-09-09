@@ -56,7 +56,7 @@ const PrivacyPolicy = () => {
             <li>Operational challenges and business context</li>
           </ul>
           <p className="mt-2 text-[#F8F9FB]/80 leading-relaxed md:ml-4">
-            This information is used solely to assess your organization's
+            This information is used solely to assess your organization&apos;s
             readiness and opportunities for AI transformation. With explicit
             consent, stakeholder interviews may be audio or video recorded for
             internal analysis. These recordings are never shared externally.
